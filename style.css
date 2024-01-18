@@ -12,3 +12,19 @@ th{
     color: yellow;
     border: 2px solid white;
 }
+
+button{
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 210px;
+    height: 30px;
+    width: 50px;
+}
+#timeDiv{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: -220px;
+    font-size: 20px;
+    color: darkred;
+    width: 1000px;
+}
