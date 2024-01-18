@@ -2,7 +2,9 @@
 app = document.getElementById('app')
 
 //View
-app.innerHTML = /*HTML*/`
+WeekView();
+function WeekView(){
+app.innerHTML = /*HTML*/` <script></script>
 <table>
 <tr>
 <th>Mandag</th>
@@ -10,8 +12,12 @@ app.innerHTML = /*HTML*/`
 <th>Onsdag</th>
 <th>Torsdag</th>
 <th>Fredag</th>
+<th>Lørdag</th>
+<th>Søndag</th>
 </tr>
 <tr>
+<td>Frokost</td>
+<td>Frokost</td>
 <td>Frokost</td>
 <td>Frokost</td>
 <td>Frokost</td>
@@ -24,6 +30,8 @@ app.innerHTML = /*HTML*/`
 <td>Arbeidspraksis</td>
 <td>Arbeidspraksis</td>
 <td>Studiedag</td>
+<td>Fri</td>
+<td>Fri</td>
 </tr>
 <tr>
 <td>Middag</td>
@@ -31,15 +39,22 @@ app.innerHTML = /*HTML*/`
 <td>Middag</td>
 <td>Middag</td>
 <td>Middag</td>
+<td>Middag</td>
+<td>Middag</td>
 </tr>
 <tr>
-<td>Gaming</td>
-<td>Gaming</td>
-<td>Gaming</td>
-<td>Gaming</td>
-<td>Gaming</td>
+<td>Fri</td>
+<td>Fri</td>
+<td>Fri</td>
+<td>Fri</td>
+<td>Fri</td>
+<td>Fri</td>
+<td>Fri</td>
 </tr>
-
 </table>
 `;
+}
 
+function WeekendToggle(){
+var thursday = "";
+}
