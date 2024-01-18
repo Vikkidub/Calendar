@@ -1,6 +1,6 @@
 WeekView();
 function WeekView(){
-app.innerHTML = /*HTML*/` <script></script>
+app.innerHTML = /*HTML*/` 
 <table>
 <tr>
 <th>Mandag</th>
