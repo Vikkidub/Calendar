@@ -1,0 +1,14 @@
+body {
+    background-color: teal;
+    font-size: 25px;
+}
+table{
+    border: 6px solid white;
+}
+td{
+    border: 2px solid white;
+}
+th{
+    color: yellow;
+    border: 2px solid white;
+}
