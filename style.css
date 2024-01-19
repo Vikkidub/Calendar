@@ -12,8 +12,20 @@ th{
     color: yellow;
     border: 2px solid white;
 }
-
-button{
+.weekButton{
+    position: absolute;
+    width: 131.5px;
+    height: 37px;
+    margin-left: 106px;
+    margin-top: -43px;
+    background-color:black;
+    color: white;
+    border-color: white;
+}
+.weekButton:hover{
+    border-color: yellow;
+}
+.backButton{
     position: absolute;
     margin-left: 1px;
     margin-top: 210px;
@@ -25,6 +37,14 @@ button{
     margin-left: 165px;
     margin-top: -220px;
     font-size: 20px;
-    color: darkred;
+    color: white;
+    width: 1000px;
+}
+.timeDiv{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 220px;
+    font-size: 20px;
+    color: white;
     width: 1000px;
 }

@@ -45,19 +45,16 @@ function monthView(){
     <td>29</td>
     <td>30</td>
     <td>31</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+
     </tr>
     </table>
-    <div id="timeDiv">a</div>
+    <div id="timeDiv"></div>
+    <button class="weekButton" onclick="weekView()">Weekly schedule</button>
     `;
 }
 function weekView(){
 app.innerHTML = /*HTML*/` 
-<button>Back</button>
-<p>
+<button class="backButton" onclick="monthView()">Back</button>
 <table>
 <tr>
 <th>Mandag</th>
@@ -69,43 +66,41 @@ app.innerHTML = /*HTML*/`
 <th>Søndag</th>
 </tr>
 <tr>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
 </tr>
 <tr>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
 </tr>
 <tr>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
 </tr>
 <tr>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
-<td>24</td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td><input></td>
 </tr>
 </table>
-<p>
-<div id="timeDiv">a</div>
 `;
 }
